@@ -6,7 +6,19 @@ py clogger is a lightweight Python logging utility library. It provides a set of
 
 ## Installation
 
-The library can be installed directly from its GitHub repository using pip:
+Before installing the latest version, it is recommended to uninstall any previous version to avoid conflicts.
+
+```shell
+pip uninstall clogger -y
+```
+
+**For users in Mainland China**, it is recommended to install from the Gitee mirror for faster and more reliable downloads:
+
+```shell
+pip install git+https://gitee.com/cyfney/py_clogger.git
+```
+
+Alternatively, you can install the library directly from the GitHub repository:
 
 ```shell
 pip install git+https://github.com/cyfney/py_clogger.git
